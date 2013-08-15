@@ -12,14 +12,14 @@ class SeedGenServiceProvider extends ServiceProvider {
 	protected $defer = false;
 
 	/**
-     * Bootstrap the application events.
-     *
-     * @return void
-     */
+	 * Bootstrap the application events.
+	 *
+	 * @return void
+	 */
 	public function boot()
-    {
-        $this->package('adamgoose/seedgen');
-    }
+  {
+  	$this->package('adamgoose/seedgen');
+  }
 
 	/**
 	 * Register the service provider.
